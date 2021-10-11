@@ -11,6 +11,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 
 .nav__left{
@@ -27,6 +29,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: inherit;
+    font-weight: 600;
 }
 
 .logo__img{
@@ -59,7 +62,8 @@
     padding: 3px 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    font-weight: 100;
 }
 
 a:hover{

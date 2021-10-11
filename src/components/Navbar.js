@@ -3,7 +3,7 @@ import "./navbar.css"
 
 function Navbar() {
     return (
-        <div >
+        <div className="fixed-top" >
            <nav className="nav">
                <div className="nav__left">
                 <div className="logo">
@@ -28,7 +28,7 @@ function Navbar() {
             </nav>
             <div className="nav__responsive">
                 <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="p-4" style={{backgroundColor:'rgb(4, 204, 4)', display:'flex', alignItems:'center', justifyContent:'space-around'}}>
+                    <div class="p-4" style={{backgroundColor:'rgb(4, 204, 4, 0.7)', display:'flex', alignItems:'center', justifyContent:'space-around'}}>
                         <span class="responsive__text" style={{color:'white'}}>Being Sapien</span>
                         <img className='responsive__logo'src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQADBdv1qYl0TaZFmDEmwN07wAkg8LTS3JzVqPVx2_aG-xbm5o7lQxGAsavhw-WKReE9As&usqp=CAU" alt="" />
                         <div className="responsive__nav__list">
