@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: rgba(3, 138, 3);
+    margin-top: 10vh;
+    padding-top: 5vh;
+}
+
+.search{
+    color: rgb(4, 204, 4);
+}
+
+.search:hover{
+    color: rgb(4, 204, 4);
+}
+
+.search__bar{
+    width: 20%;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .search__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .search__badge{
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .search__form{
+        width: 50vh;
+    }
+
+    .search__bar{
+        width: 60%;
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 .nav{
-    background-color: rgb(4, 204, 4);
+    background-color: rgba(3, 138, 3, 0.774);
     height: 15vh;
     box-shadow: 0px 0px 7px 0px black;
     display: flex;
@@ -50,8 +50,12 @@
 }
 
 .nav__list__items {
+    list-style-type: none;    
+}
+
+.about-us a :hover{
     list-style-type: none;
-    
+    color: rgb(4, 204, 4);
 }
 
 
@@ -98,7 +102,7 @@ a:hover{
 }
 
 .nav__responsive__items{
-    background-color: rgb(4, 204, 4);
+    background-color: rgba(3, 138, 3, 0.774);
 }
 
 .responsive__logo{
