@@ -10,10 +10,11 @@ import {
   Link
 } from "react-router-dom";
 import Srch from './components/Srch';
-
+import ReportsState from './context/reports/ReportsState';
 
 function App() {
   return (
+    <ReportsState>
     <Router>
       <div className="App">
         <Navbar/>
@@ -29,6 +30,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    </ReportsState>
   );
 }
 
